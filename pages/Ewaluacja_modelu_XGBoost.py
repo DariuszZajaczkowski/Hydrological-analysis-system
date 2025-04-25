@@ -146,10 +146,10 @@ st.write("🟠 0.6 - 0.8: silna dodatnia korelacja")
 st.write("🟡 0.4 - 0.6: umiarkowana dodatnia korelacja")
 st.write("🟡 0.2 - 0.4: słaba dodatnia korelacja")
 st.write("🟢 0: brak korelacji (zmienne są niezależne)")
-st.write("🔵 -0.2 - 0: słaba ujemna korelacja (gdy jedna zmienna rośnie, druga ma tendencję do spadania, ale jest to bardzo słaba zależność)")
+st.write("🟢 -0.2 - 0: słaba ujemna korelacja (gdy jedna zmienna rośnie, druga ma tendencję do spadania, ale jest to bardzo słaba zależność)")
 st.write("🔵 -0.4 - -0.2: umiarkowana ujemna korelacja")
 st.write("🔵 -0.6 - -0.4: silna ujemna korelacja")
-st.write("⚫ -0.8 - -0.6: bardzo silna ujemna korelacja")
+st.write("🔵 -0.8 - -0.6: bardzo silna ujemna korelacja")
 st.write("⚫ -1: idealna ujemna korelacja (kiedy jedna zmienna rośnie, druga spada w sposób proporcjonalny)")
 
 
