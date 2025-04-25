@@ -10,7 +10,8 @@ from folium.plugins import MarkerCluster
 import plotly.express as px
 import plotly.graph_objects as go
 
-data = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zaliczeniowy/dane_hydrologiczne_msc/data_merged.csv", encoding='Windows-1250')
+url_data = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/dane_hydrologiczne_msc/data_merged.csv"
+data = pd.read_csv(url_data, encoding="Windows-1250")
 
 url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/stations_full.csv"
 stations = pd.read_csv(url, encoding="Windows-1250")
