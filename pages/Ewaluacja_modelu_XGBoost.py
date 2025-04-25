@@ -31,7 +31,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.markdown("Ewaluacja modelu")
-st.write("Lepszym podejściem do analizy hydrologicznej jest filtrowanie i skupienie się na danych z poszczególnych stacji pomiarowych, ponieważ dane ze różnych stacji (np. w obrębie całego regionu geograficznego) mogą mieć zupełnie inne charakterystyki ze względu na lokalne warunki hydrologiczne, topografię, klimat regionalny czy zlewnie rzeczne.")
+st.write("Lepszym podejściem do analizy hydrologicznej jest filtrowanie i skupienie się na danych z poszczególnych stacji pomiarowych, ponieważ dane ze różnych stacji (np. w obrębie całego regionu geograficznego) mogą mieć zupełnie inne charakterystyki ze względu na lokalne warunki hydrologiczne, geomorfologię, klimat regionalny czy zlewnie rzeczne.")
 st.write("Mieszanie tych danych w jednym modelu może wprowadzać szum, który negatywnie wpływa na jakość wyników, obniżając skuteczność prognoz i zaburzając efektywność prognozowania modelu. Dlatego analiza na poziomie konkretnej stacji pozwala na bardziej precyzyjne modelowanie, które uwzględnia specyficzne warunki dla danego obszaru.")
 st.write("Zmienne wykorzystane w modelu: Region geograficzny, Województwo, Stacja, Miesięczne sumy opadów [mm], Dni z opadem śniegu [n], Maskymalny zarejesdtrowany opad [mm], poziom wód [cm], przeływ wody [cm3/s], temperatura wody [oC]")
 col1, col2 = st.columns([0.25,1])
