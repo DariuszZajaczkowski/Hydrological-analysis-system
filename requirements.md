@@ -8,5 +8,7 @@ scipy
 xgboost
 plotly
 scikit-learn
-
+qrcode
+io
+folium
 
