@@ -140,24 +140,21 @@ plt.yticks(fontsize=8)  # Czcionka dla etykiet osi Y
 st.pyplot(plt)
 
 st.write("Interpretacja skali korelacji")
-st.write("1: idealna dodatnia korelacja (kiedy jedna zmienna rośnie, druga również rośnie w sposób proporcjonalny)
+st.write("1: idealna dodatnia korelacja (kiedy jedna zmienna rośnie, druga również rośnie w sposób proporcjonalny)")
+st.write("0.8 - 1: bardzo silna dodatnia korelacja (zmienne rosną razem, ale nie w 100% proporcjonalnie)")
+st.write("0.6 - 0.8: silna dodatnia korelacja")
+st.write("0.4 - 0.6: umiarkowana dodatnia korelacja")
+st.write("0.2 - 0.4: słaba dodatnia korelacja")
+st.write("0: brak korelacji (zmienne są niezależne)")
+st.write("-0.2 - 0: słaba ujemna korelacja (gdy jedna zmienna rośnie, druga ma tendencję do spadania, ale jest to bardzo słaba zależność)")
+st.write("-0.4 - -0.2: umiarkowana ujemna korelacja")
+st.write("-0.6 - -0.4: silna ujemna korelacja")
+st.write("-0.8 - -0.6: bardzo silna ujemna korelacja")
+st.write("-1: idealna ujemna korelacja (kiedy jedna zmienna rośnie, druga spada w sposób proporcjonalny)")
 
-0.8 - 1: bardzo silna dodatnia korelacja (zmienne rosną razem, ale nie w 100% proporcjonalnie)
 
-0.6 - 0.8: silna dodatnia korelacja
 
-0.4 - 0.6: umiarkowana dodatnia korelacja
 
-0.2 - 0.4: słaba dodatnia korelacja
 
-0: brak korelacji (zmienne są niezależne)
 
--0.2 - 0: słaba ujemna korelacja (gdy jedna zmienna rośnie, druga ma tendencję do spadania, ale jest to bardzo słaba zależność)
 
--0.4 - -0.2: umiarkowana ujemna korelacja
-
--0.6 - -0.4: silna ujemna korelacja
-
--0.8 - -0.6: bardzo silna ujemna korelacja
-
--1: idealna ujemna korelacja (kiedy jedna zmienna rośnie, druga spada w sposób proporcjonalny)")
