@@ -11,7 +11,9 @@ from sklearn.metrics import mean_squared_error, r2_score
 from scipy.stats import uniform, randint
 from sklearn.linear_model import LinearRegression
 
-data = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zaliczeniowy/dane_hydrologiczne_msc/data_merged.csv", encoding='Windows-1250')
+url_data = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/dane_hydrologiczne_msc/data_merged.csv"
+data = pd.read_csv(url_data, encoding="Windows-1250")
+
 url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/stations_full.csv"
 stations = pd.read_csv(url, encoding="Windows-1250")
 spatial_data = pd.merge(data, stations, on = ['station'], how = 'inner')
