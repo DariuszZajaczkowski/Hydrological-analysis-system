@@ -8,3 +8,4 @@ xgboost==3.0.0
 plotly==6.0.1
 qrcode==8.1
 folium
+st_folium
