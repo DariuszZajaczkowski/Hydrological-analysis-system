@@ -4,7 +4,7 @@ import io
 import folium
 from streamlit_folium import st_folium
 
-stations = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zaliczeniowy/stations_full.csv", encoding='Windows-1250')
+stations = pd.read_csv("stations_full.csv", encoding='Windows-1250')
 
 #Określenie adresu url aplikacji aby móc wstawić wygenerowany wcześniej kod QR (Network URL Streamlit)-----------------------------------------------------------------------
 url = "http://192.168.100.5:8501"
