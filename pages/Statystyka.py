@@ -8,7 +8,9 @@ from scipy.stats import gaussian_kde
 
 #Dodanie bazy danych (przetworzonej wczesniej w pliku Database.ipynb)--------------------------------------------------------------------------------------------------------
 
-data = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zaliczeniowy/dane_hydrologiczne_msc/data_merged.csv", encoding='ISO-8859-2')
+url_data = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/dane_hydrologiczne_msc/data_merged.csv"
+data = pd.read_csv(url_data, encoding="Windows-1250")
+
 # Sprawdzenie i usunięcie wartości NaN lub Inf w kolumnie 'water_level'
 data = data[~data["water_level"].isna()]  # Usuwa NaN
 data = data[~data["water_level"].isin([np.inf, -np.inf])]  # Usuwa Inf
