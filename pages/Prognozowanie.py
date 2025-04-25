@@ -41,13 +41,13 @@ X = model_data[features]
 y = model_data[target]
 
 #Podział na zbiór treningowy i testowy (80/20)
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 #Tworzenie i trenowanie modelu
-model = xgb.XGBRegressor(objective="reg:squarederror", n_estimators=70,
+model = xgb.XGBRegressor(objective="reg:squarederror", n_estimators=45,
                          learning_rate=0.1,
-                         max_depth=5,
-                         min_child_weight=2,
+                         max_depth=3,
+                         min_child_weight=1,
                          random_state=42)
 model.fit(X_train, y_train)
 
