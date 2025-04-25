@@ -120,6 +120,7 @@ st.markdown("<h5 style='text-align: center;'>Wskaźniki efektywności modelu</h5
 st.table(metrics_df)
 
 st.markdown("<h5 style='text-align: center;'>Macierz korelacji między zmiennymi</h5>", unsafe_allow_html=True)
+st.write("Wykorzystano współczynnik korelacji Pearsona, mierzący liniową zależność między dwiema zmiennymi na skali od -1 do 1.")
 
 # Wybieranie tylko kolumn numerycznych - inaczej macierz korelacji się nie wygeneruje
 numeric_data = filtered_data.select_dtypes(include=['float64', 'int64'])
