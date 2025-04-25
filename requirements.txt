@@ -10,3 +10,4 @@ qrcode==8.1
 folium
 streamlit_folium
 scikit-learn==1.0.2
+sklearn
