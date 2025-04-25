@@ -4,10 +4,8 @@ import io
 import folium
 from streamlit_folium import st_folium
 
-stations = pd.read_csv("https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/stations_full.csv", encoding='Windows-1250')
-
-#Określenie adresu url aplikacji aby móc wstawić wygenerowany wcześniej kod QR (Network URL Streamlit)-----------------------------------------------------------------------
-url = "http://192.168.100.5:8501"
+url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/stations_full.csv"
+stations = pd.read_csv(url, encoding="Windows-1250")
 
 st.set_page_config(
     page_title="System analiz hydrologicznych",
@@ -43,9 +41,6 @@ st.image("data_source.png",
 st.write("Rozmieszczenie stacji pomiarowych na terenie Polski:")
 m = folium.Map(location=[52.0, 19.0], zoom_start=6)
 
-
-stations = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zaliczeniowy/stations_full.csv",
-                       encoding="Windows-1250")
 
 stations_m = stations.dropna(subset=['lat', 'lon'])
 for i, row in stations_m.iterrows():
