@@ -9,7 +9,8 @@ from scipy import stats
 
 #Dodanie bazy danych (przetworzonej wczesniej w pliku Database.ipynb)--------------------------------------------------------------------------------------------------------
 
-data = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zaliczeniowy/dane_hydrologiczne_msc/data_merged.csv", encoding='ISO-8859-2')
+url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/dane_hydrologiczne_msc/data_merged.csv"
+data = pd.read_csv(url, encoding="Windows-1250")
 
 st.set_page_config(page_title="System analiz powodziowych", layout="wide")
 
