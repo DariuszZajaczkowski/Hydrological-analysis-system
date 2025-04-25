@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image, ImageOps
-import qrcode
-from PIL import Image
 import io
 import folium
 from streamlit_folium import st_folium
@@ -11,24 +8,6 @@ stations = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zalic
 
 #Określenie adresu url aplikacji aby móc wstawić wygenerowany wcześniej kod QR (Network URL Streamlit)-----------------------------------------------------------------------
 url = "http://192.168.100.5:8501"
-
-# Generowanie kodu QR--------------------------------------------------------------------------------------------------------------------------------------------------------
-qr = qrcode.QRCode(
-    version=1,
-    error_correction=qrcode.constants.ERROR_CORRECT_L,
-    box_size=20,
-    border=1,
-)
-qr.add_data(url)
-qr.make(fit=True)
-
-# Tworzenie obrazu kodu QR
-img = qr.make_image(fill="black", back_color="white")
-
-# Zapisanie obrazu QR do bufora w pamięci
-buf = io.BytesIO()
-img.save(buf)
-buf.seek(0)
 
 st.set_page_config(
     page_title="System analiz hydrologicznych",
