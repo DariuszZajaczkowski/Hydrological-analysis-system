@@ -14,9 +14,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# Wyświetl obraz QR w aplikacji Streamlit
-st.image(buf, caption= "Analizuj mobilnie 🧐",width=110)
-
 st.markdown("<h1 style='text-align: center;'>🌧️ System Analiz Hydrologicznych 🌊</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: left;'>Projekt zakłada stworzenie systemu do analizy i prognoz hydrologicznych w oparciu o dane meteorologiczne i hydrologiczne z otwartej bazy danych Instytutu Meteorologii i Gospodarki Wodnej - Państwowego Instytutu Badawczego. System został zaprojektowany z myślą o analizie zjawisk hydrologicznych i meteorologicznych, takich jak stany wód, opady atmosferyczne czy przepływy rzeczne, z uwzględnieniem zróżnicowania przestrzeni geograficznej w Polsce.</p>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: left;'>Mocną stroną projektu jest implemetnacja modelu opartego na algorytmie XGBoost, który umożliwia:</p>", unsafe_allow_html=True)
