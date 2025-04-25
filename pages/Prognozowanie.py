@@ -12,7 +12,8 @@ from scipy.stats import uniform, randint
 from sklearn.linear_model import LinearRegression
 
 data = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zaliczeniowy/dane_hydrologiczne_msc/data_merged.csv", encoding='Windows-1250')
-stations = pd.read_csv("C:/Users/dzaja/OneDrive/Pulpit/Studia_DSAD/Projekt_zaliczeniowy/stations_full.csv", encoding='Windows-1250')
+url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/stations_full.csv"
+stations = pd.read_csv(url, encoding="Windows-1250")
 spatial_data = pd.merge(data, stations, on = ['station'], how = 'inner')
 
 st.set_page_config(
