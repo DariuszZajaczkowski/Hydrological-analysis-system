@@ -16,7 +16,7 @@ st.markdown("<h1 style='text-align: center;'>🌧️ System Analiz Hydrologiczny
 st.markdown("<p style='text-align: left;'>Projekt zakłada stworzenie systemu do analizy i prognoz hydrologicznych w oparciu o dane meteorologiczne i hydrologiczne z otwartej bazy danych Instytutu Meteorologii i Gospodarki Wodnej - Państwowego Instytutu Badawczego. System został zaprojektowany z myślą o analizie zjawisk hydrologicznych i meteorologicznych, takich jak stany wód, opady atmosferyczne czy przepływy rzeczne, z uwzględnieniem zróżnicowania przestrzeni geograficznej w Polsce.</p>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: left;'>Mocną stroną projektu jest implementacja modelu opartego na algorytmie XGBoost, który umożliwia:</p>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: left;'>🔵 Predykcję przyszłych poziomów wód na podstawie wprowadzonych warunków hydrologicznych (np. opady atmosferyczne, przepływy wód)</p>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: left;'>🔵 Wizualną ocenę skuteczności modelu (porównanie danych rzeczywistych i przewidywanych, wskaźniki jakości modelu, wizuwalizacje oraz macierze korelacji między zmiennymi)</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: left;'>🔵 Wizualną ocenę skuteczności modelu (porównanie danych rzeczywistych i przewidywanych, wskaźniki jakości modelu, wizualizacje oraz macierze korelacji między zmiennymi)</p>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: left;'>🔵 Filtrowanie danych po stacji, województwie i regionie - co zwiększa poziom jakości modelu mimo istotnego wpływu środowiska geograficznego</p>", unsafe_allow_html=True)
 
 st.markdown("""
