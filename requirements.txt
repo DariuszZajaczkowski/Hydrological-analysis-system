@@ -8,4 +8,5 @@ xgboost==3.0.0
 plotly==6.0.1
 folium
 streamlit_folium
+qrcode==8.1
 scikit-learn
