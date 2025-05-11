@@ -1,0 +1,1 @@
+In order to prevent the issues with the source codes and data, the project have been imported to the Streamlit cloud service. The app is avaiable in the following address: **https://hydrological-analysis-system-app.streamlit.app/**
