@@ -66,5 +66,6 @@ st.markdown("""
 
 url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/libraries.csv"
 libraries = pd.read_csv(url)
+libraries.index = libraries.index + 1
 st.table(libraries)
 
