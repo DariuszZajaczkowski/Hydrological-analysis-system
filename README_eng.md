@@ -24,4 +24,5 @@ Statistics
 
 
 # Used technologies and libraries
+![image](https://github.com/user-attachments/assets/0696dcef-2064-4939-adff-676ba160ffaf)
 
