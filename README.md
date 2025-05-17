@@ -43,6 +43,6 @@ The "Hydrological Analysis System" project consists of six main modules: **Home 
 
 # Data preparation process
 The whole ETL data process is presented in a particular section of the Project. A brief presentation of the mentioned process is implemented below: 
-![image](https://github.com/user-attachments/assets/fdac6f45-083a-46a7-8edf-c88383b3334d)
+![image](https://github.com/user-attachments/assets/33bff866-c825-4571-b730-94214b09796e)
 
 
