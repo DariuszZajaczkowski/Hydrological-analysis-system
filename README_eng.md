@@ -24,8 +24,8 @@ Statistics
 
 
 # Used technologies and libraries
-**streamlit (1.44.1)
-pandas (2.2.3)
+**1. streamlit (1.44.1)
+2. pandas (2.2.3)
 numpy (2.2.5)
 matplotlib (3.10.1)
 seaborn (0.13.2)
