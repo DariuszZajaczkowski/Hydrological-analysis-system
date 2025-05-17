@@ -48,8 +48,7 @@ for i, row in stations_m.iterrows():
         color='blue',
         popup=popup_text,
     ).add_to(m)
-st_folium(m, width=700, height=700)
-st.write("-")
+st_folium(m, width=700, height=500)
 #Tabela podsumowująca ile stacji jest per województwo
 st.write("Liczba stacji pomiarowych wykorzystanych w projekcie w podziale na województwa")
 stations_per_state = stations.groupby("state")["station"].count().reset_index()
