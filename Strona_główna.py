@@ -37,18 +37,7 @@ st.write("Dane meteorologiczne dotyczące opadów atmosferycznych oraz hydrologi
 st.image("data_source.png",
          caption="Proces przepływu danych hydrologicznych i meteorologicznych w projeckie 'System Analiz Hydrologizcnych'")
 
-st.write("Rozmieszczenie stacji pomiarowych na terenie Polski:")
-m = folium.Map(location=[52.0, 19.0], zoom_start=6)
-stations_m = stations.dropna(subset=['lat', 'lon'])
-for i, row in stations_m.iterrows():
-    popup_text = f"<b>Nazwa stacji:</b> {row['station']}<br><b>Region:</b> {row['obszar']}"
-    folium.CircleMarker(
-        location=[row['lat'], row['lon']],
-        radius=4,
-        color='blue',
-        popup=popup_text,
-    ).add_to(m)
-st_folium(m, width=900, height=500)
+
 #Tabela podsumowująca ile stacji jest per województwo
 st.write("Liczba stacji pomiarowych wykorzystanych w projekcie w podziale na województwa")
 stations_per_state = stations.groupby("state")["station"].count().reset_index()
@@ -67,3 +56,15 @@ libraries = pd.read_csv(url)
 libraries.index = libraries.index + 1
 st.table(libraries)
 
+st.write("Rozmieszczenie stacji pomiarowych na terenie Polski:")
+m = folium.Map(location=[52.0, 19.0], zoom_start=6)
+stations_m = stations.dropna(subset=['lat', 'lon'])
+for i, row in stations_m.iterrows():
+    popup_text = f"<b>Nazwa stacji:</b> {row['station']}<br><b>Region:</b> {row['obszar']}"
+    folium.CircleMarker(
+        location=[row['lat'], row['lon']],
+        radius=4,
+        color='blue',
+        popup=popup_text,
+    ).add_to(m)
+st_folium(m, width=900, height=500)
