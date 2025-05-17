@@ -47,4 +47,5 @@ st.markdown("<h5 style='text-align: left;'>Szósty etap przetwarzania danych</h5
 url7 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_7.png"
 url8 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_8.png"
 with st.expander("Wyświetl fragment kodu:"):
+    st.image(url7)
     st.image(url8)
