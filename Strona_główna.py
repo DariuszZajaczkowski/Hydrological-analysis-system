@@ -45,17 +45,6 @@ stations_per_state.columns = ["Województwo", "Liczba stacji"]
 stations_per_state.index = stations_per_state.index + 1
 st.table(stations_per_state)
 
-#Wykorzystane biblioteki
-st.markdown("""
-<div style="font-size:16px; font-weight:bold; text-align:center; margin-top:25px;">
-    Wykorzystane biblioteki
-</div>
-""", unsafe_allow_html=True)
-url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/libraries.csv"
-libraries = pd.read_csv(url)
-libraries.index = libraries.index + 1
-st.table(libraries)
-
 st.write("Rozmieszczenie stacji pomiarowych na terenie Polski:")
 m = folium.Map(location=[52.0, 19.0], zoom_start=6)
 stations_m = stations.dropna(subset=['lat', 'lon'])
@@ -67,4 +56,17 @@ for i, row in stations_m.iterrows():
         color='blue',
         popup=popup_text,
     ).add_to(m)
-st_folium(m, width=900, height=500)
+st_folium(m, width=1200, height=500)
+
+#Wykorzystane biblioteki
+st.markdown("""
+<div style="font-size:16px; font-weight:bold; text-align:center; margin-top:25px;">
+    Wykorzystane biblioteki
+</div>
+""", unsafe_allow_html=True)
+url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/libraries.csv"
+libraries = pd.read_csv(url)
+libraries.index = libraries.index + 1
+st.table(libraries)
+
+
