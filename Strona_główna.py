@@ -37,7 +37,6 @@ st.write("Dane meteorologiczne dotyczące opadów atmosferycznych oraz hydrologi
 st.image("data_source.png",
          caption="Proces przepływu danych hydrologicznych i meteorologicznych w projeckie 'System Analiz Hydrologizcnych'")
 
-
 st.write("Rozmieszczenie stacji pomiarowych na terenie Polski:")
 m = folium.Map(location=[52.0, 19.0], zoom_start=6)
 stations_m = stations.dropna(subset=['lat', 'lon'])
@@ -49,13 +48,15 @@ for i, row in stations_m.iterrows():
         color='blue',
         popup=popup_text,
     ).add_to(m)
-st_folium(m, width=700, height=500)
+st_folium(m, width=700, height=700)
+
 #Tabela podsumowująca ile stacji jest per województwo
 st.write("Liczba stacji pomiarowych wykorzystanych w projekcie w podziale na województwa")
 stations_per_state = stations.groupby("state")["station"].count().reset_index()
 stations_per_state.columns = ["Województwo", "Liczba stacji"]
 stations_per_state.index = stations_per_state.index + 1
 st.table(stations_per_state)
+
 #Wykorzystane biblioteki
 st.markdown("""
 <div style="font-size:16px; font-weight:bold; text-align:center; margin-top:25px;">
