@@ -17,6 +17,14 @@ A key strength of the project is the implementation of a model based on the XGBo
   The project has been deployed to the Streamlit cloud service to prevent issues with the source code and data. The app is available at the following address: https://hydrological-analysis-system-app.streamlit.app/
 
 # The Project sections
+The "Hydrological Analysis System" project consists of six main modules:
+Home Page
+Historical Analysis
+Spatial Analysis
+XGBoost Model Evaluation
+Forecasting
+
+Statistics
   ![image](https://github.com/user-attachments/assets/2c2a1693-a9c4-4739-a201-fe81e101e4b8)
 
 
