@@ -56,7 +56,7 @@ for i, row in stations_m.iterrows():
         color='blue',
         popup=popup_text,
     ).add_to(m)
-st_folium(m, width=1200, height=500)
+st_folium(m, width=1500, height=500)
 
 #Wykorzystane biblioteki
 st.markdown("""
