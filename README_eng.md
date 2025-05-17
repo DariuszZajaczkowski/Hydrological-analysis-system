@@ -1,4 +1,4 @@
-# The Project Overview
+![image](https://github.com/user-attachments/assets/32a794a8-c8ee-4240-8a1c-082fb742e511)# The Project Overview
 
   The project aims to develop a system for hydrological analysis and forecasting based on meteorological and hydrological data from the open data repository of the Institute of Meteorology and Water Management – National Research Institute (IMGW-PIB). The system is designed to support the analysis of hydrological and meteorological phenomena, such as water levels, precipitation, and river flows, taking into account the geographical variability across Poland
 
@@ -8,8 +8,16 @@ A key strength of the project is the implementation of a model based on the XGBo
 
 🔵 Visual evaluation of model performance (comparison of actual vs. predicted data, model quality metrics, visualizations, and correlation matrices between variables)
 
-🔵 Data filtering by station, voivodeship, and region — which improves model quality by accounting for significant geographic and environmental variability
+🔵 Data filtering by station, voivodeship, and region, which improves model quality by accounting for significant geographic and environmental variability
 
 # Repository Content
-  In order to prevent issues with the source code and data, the project has been deployed to the Streamlit cloud service. The app is available at the following address: https://hydrological-analysis-system-app.streamlit.app/
 
+
+# How to run the app
+  The project has been deployed to the Streamlit cloud service to prevent issues with the source code and data. The app is available at the following address: https://hydrological-analysis-system-app.streamlit.app/
+
+# The Project sections
+![image](https://github.com/user-attachments/assets/2c2a1693-a9c4-4739-a201-fe81e101e4b8)
+
+
+# Used technologies and libriaries
