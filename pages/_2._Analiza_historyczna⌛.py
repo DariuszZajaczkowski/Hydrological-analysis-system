@@ -17,7 +17,7 @@ st.set_page_config(page_title="System analiz powodziowych", layout="wide")
 st.markdown("""
             <div style='text-align: left;'>
             <span style = "font-size: 20px; font-weight: bold;">
-            SEKCJA I - Analiza historyczna dla Polski
+            SEKCJA II - Analiza historyczna dla Polski
             </span>
         </div>   
     """, unsafe_allow_html=True)
