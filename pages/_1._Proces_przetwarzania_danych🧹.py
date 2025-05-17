@@ -31,7 +31,6 @@ url3 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analy
 with st.expander("Wyświetl fragment kodu:"):
     st.image(url3)
 
-
 st.markdown("<h5 style='text-align: left;'>Czwarty etap przetwarzania danych</h5>", unsafe_allow_html=True)
 url4 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_4.png"
 url5 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_5.png"
