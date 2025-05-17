@@ -35,8 +35,7 @@ The repository for the "System Analiz Hydrologicznych" project consists of the f
 
 # The Project sections
 The "Hydrological Analysis System" project consists of six main modules: **Home Page, Historical Analysis, Spatial Analysis, XGBoost Model Evaluation, Forecasting, Statistics**
-
-  ![image](https://github.com/user-attachments/assets/2c2a1693-a9c4-4739-a201-fe81e101e4b8)
+![image](https://github.com/user-attachments/assets/1b33ecde-3b0a-491b-bcbe-10ccd2be4035)
 
 # Used technologies and libraries
 ![image](https://github.com/user-attachments/assets/dfd8242d-9791-4d17-a66e-b40b64cfbbf4)
