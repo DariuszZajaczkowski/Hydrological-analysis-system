@@ -13,21 +13,21 @@ A key strength of the project is the implementation of a model based on the XGBo
 # Repository Content
 The repository for the "System Analiz Hydrologicznych" project consists of the following components:
 
-1. Processed input data prepared from raw source data (dane_hydrologiczne_msc/)
+**1.** Processed input data prepared from raw source data (**dane_hydrologiczne_msc/**)
 
-2. Raw input data (data/)
+**2.** Raw input data (**data/**)
 
-3. A Jupyter Notebook containing the source data preprocessing code (Database.ipynb)
+**3.** A Jupyter Notebook containing the source data preprocessing code (**Database.ipynb**)
 
-4. A diagram illustrating the data flow in the project (data_source.png)
+**4.** A diagram illustrating the data flow in the project (**data_source.png**)
 
-5. A CSV file with installed Python libraries (libraries.csv)
+**5.** A CSV file with installed Python libraries (**libraries.csv**)
 
-6. An interactive map showing the locations of measurement stations (mapa_stacji.html)
+**6.** An interactive map showing the locations of measurement stations (**mapa_stacji.html**)
 
-7. A requirements file listing the libraries needed to run the application (e.g., in the Streamlit Cloud environment) (requirements.txt)
+**7.** A requirements file listing the libraries needed to run the application (e.g., in the Streamlit Cloud environment) (**requirements.txt**)
 
-8. A processed CSV file containing geographic and administrative metadata for measurement stations (stations.full.csv)
+**8.** A processed CSV file containing geographic and administrative metadata for measurement stations (**stations.full.csv**)
 
 # How to run the app
   The project has been deployed to the Streamlit cloud service to prevent source code and data issues. The app is available at the following address: https://hydrological-analysis-system-app.streamlit.app/.
