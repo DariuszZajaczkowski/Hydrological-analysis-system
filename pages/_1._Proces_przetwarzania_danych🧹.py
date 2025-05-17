@@ -25,3 +25,12 @@ st.markdown("<h5 style='text-align: left;'>Drugi etap przetwarzania danych</h5>"
 url2 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_2.png"
 with st.expander("Wyświetl fragment kodu:"):
     st.image(url2)
+
+st.markdown("<h5 style='text-align: left;'>Trzeci etap przetwarzania danych</h5>", unsafe_allow_html=True)
+url3 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_3.png"
+url4 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_4.png"
+url5 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_5.png"
+with st.expander("Wyświetl fragment kodu:"):
+    st.image(url3)
+    st.image(url4)
+    st.image(url5)
