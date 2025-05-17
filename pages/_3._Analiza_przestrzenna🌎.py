@@ -24,7 +24,7 @@ st.set_page_config(
 st.markdown("""
             <div style='text-align: left;'>
             <span style = "font-size: 20px; font-weight: bold;">
-            SEKCJA II - Analiza przestrzenna
+            SEKCJA III - Analiza przestrzenna
             </span>
         </div>   
     """, unsafe_allow_html=True)
