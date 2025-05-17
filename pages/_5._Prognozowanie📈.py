@@ -25,7 +25,7 @@ st.set_page_config(
 st.markdown("""
             <div style='text-align: left;'>
             <span style = "font-size: 20px; font-weight: bold;">
-            SEKCJA IV - Predykcja za pomocą modelu XGBoost
+            SEKCJA V - Predykcja za pomocą modelu XGBoost
             </span>
         </div>   
     """, unsafe_allow_html=True)
