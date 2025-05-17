@@ -40,8 +40,6 @@ st.image("data_source.png",
 
 st.write("Rozmieszczenie stacji pomiarowych na terenie Polski:")
 m = folium.Map(location=[52.0, 19.0], zoom_start=6)
-
-
 stations_m = stations.dropna(subset=['lat', 'lon'])
 for i, row in stations_m.iterrows():
     popup_text = f"<b>Nazwa stacji:</b> {row['station']}<br><b>Region:</b> {row['obszar']}"
@@ -51,7 +49,6 @@ for i, row in stations_m.iterrows():
         color='blue',
         popup=popup_text,
     ).add_to(m)
-
 st_folium(m, width=700, height=500)
 
 #Tabela podsumowująca ile stacji jest per województwo
