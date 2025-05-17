@@ -61,4 +61,13 @@ stations_per_state.columns = ["Województwo", "Liczba stacji"]
 stations_per_state.index = stations_per_state.index + 1
 st.table(stations_per_state)
 
+st.markdown("""
+<div style="font-size:16px; font-weight:bold; text-align:center; margin-top:25px;">
+    Wykorzystane biblioteki
+</div>
+""", unsafe_allow_html=True)
+
+url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/libraries.csv"
+libraries = pd.read_csv(url)
+st.table(libraries)
 
