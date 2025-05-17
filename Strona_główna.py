@@ -46,7 +46,7 @@ stations_per_state.index = stations_per_state.index + 1
 st.table(stations_per_state)
 
 st.write("Rozmieszczenie stacji pomiarowych na terenie Polski:")
-m = folium.Map(location=[52.0, 24.0], zoom_start=7)
+m = folium.Map(location=[52.0, 24.0], zoom_start=6.2)
 stations_m = stations.dropna(subset=['lat', 'lon'])
 for i, row in stations_m.iterrows():
     popup_text = f"<b>Nazwa stacji:</b> {row['station']}<br><b>Region:</b> {row['obszar']}"
