@@ -24,3 +24,15 @@ Statistics
 
 
 # Used technologies and libraries
+**streamlit (1.44.1)
+pandas (2.2.3)
+numpy (2.2.5)
+matplotlib (3.10.1)
+seaborn (0.13.2)
+scipy (1.15.2)
+xgboost (3.0.0)
+plotly (6.0.1)
+folium
+streamlit_folium
+qrcode (8.1)
+scikit-learn**
