@@ -28,19 +28,18 @@ with st.expander("Wyświetl fragment kodu:"):
 
 st.markdown("<h5 style='text-align: left;'>Trzeci etap przetwarzania danych</h5>", unsafe_allow_html=True)
 url3 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_3.png"
+with st.expander("Wyświetl fragment kodu:"):
+    st.image(url3)
+
+
+st.markdown("<h5 style='text-align: left;'>Czwarty etap przetwarzania danych</h5>", unsafe_allow_html=True)
 url4 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_4.png"
 url5 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_5.png"
 with st.expander("Wyświetl fragment kodu:"):
-    st.image(url3)
     st.image(url4)
     st.image(url5)
 
-st.markdown("<h5 style='text-align: left;'>Czwarty etap przetwarzania danych</h5>", unsafe_allow_html=True)
+st.markdown("<h5 style='text-align: left;'>Piąty etap przetwarzania danych</h5>", unsafe_allow_html=True)
 url6 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_6.png"
 with st.expander("Wyświetl fragment kodu:"):
     st.image(url6)
-
-st.markdown("<h5 style='text-align: left;'>Piąty etap przetwarzania danych</h5>", unsafe_allow_html=True)
-url7 = "https://raw.githubusercontent.com/DariuszZajaczkowski/Hydrological-analysis-system/main/ETL_images/ETL_7.png"
-with st.expander("Wyświetl fragment kodu:"):
-    st.image(url7)
