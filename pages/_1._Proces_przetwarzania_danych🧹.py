@@ -11,6 +11,8 @@ st.markdown("""
             </span>
         </div>   
     """, unsafe_allow_html=True)
-
+st.write("")
+st.write("")
+st.write("")
 url = "https://github.com/DariuszZajaczkowski/Hydrological-analysis-system/raw/main/data_ETL.png"
 st.image(url,  caption= "Ogólny proces przetwarzania danych w projekcie 'System Analiz Hydrologicznych")
