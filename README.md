@@ -31,7 +31,11 @@ The repository for the "System Analiz Hydrologicznych" project consists of the f
 
 # How to run the app
   The project has been deployed to the Streamlit cloud service to prevent source code and data issues. The app is available at the following address: https://hydrological-analysis-system-app.streamlit.app/.
-  Running the application via the Streamlit cloud service does not require any local installation of libraries or technologies used in the development of the project.
+  Running the application via the Streamlit cloud service does not require the local installation of libraries or technologies used in the project's development.
+  Sometimes users need to wake up the app by clicking the button presented below:
+![image](https://github.com/user-attachments/assets/bd14d77a-4058-4dc6-bbb8-f77c7be51cb6)
+
+  
 
 # The Project sections
 The "Hydrological Analysis System" project consists of six main modules: **Home Page, Historical Analysis, Spatial Analysis, XGBoost Model Evaluation, Forecasting, Statistics**
