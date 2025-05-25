@@ -21,7 +21,7 @@ The repository for the "System Analiz Hydrologicznych" project consists of the f
 
 **4.** A diagram illustrating the data flow in the project (**data_source.png**)
 
-**5.** A CSV file with installed Python libraries (**libraries.csv**)
+**5.** A CSV file with installed required Python libraries (**libraries.csv**)
 
 **6.** An interactive map showing the locations of measurement stations (**mapa_stacji.html**)
 
