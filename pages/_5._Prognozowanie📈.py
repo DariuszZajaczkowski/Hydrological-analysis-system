@@ -146,7 +146,7 @@ with st.form("predict_form"):
     # Wybór stacji (zakładając, że masz kolumnę 'station' w danych)
     stacja = st.selectbox("Wybierz stację", options=filtered_data['station'].unique())
 
-    rok = st.number_input("Rok", min_value=1990, max_value=2030, value=2025)
+    rok = st.number_input("Rok", min_value=1990, max_value=2025, value=2023)
     miesiac = st.number_input("Miesiąc", min_value=1, max_value=12, value=7)
     opady = st.number_input("Suma opadów (mm)", value=60.0)
     dni_snieg = st.number_input("Dni ze śniegiem", value=0)
