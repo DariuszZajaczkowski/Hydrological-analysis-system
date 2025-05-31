@@ -1,4 +1,4 @@
-import streamlit as st
+0import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ with col2:
     avg_features = filtered_data.groupby(['month'])[["monthly_precip_sum", "snowfall_days", "max_precip", "water_flow"]].mean().reset_index()
 
 # Generowanie danych wejściowych na 2024 i 2025
-    future_years = [2023, 2024]
+    future_years = [2023]
     future_data = []
     for year in future_years:
         for month in range(1, 13):
