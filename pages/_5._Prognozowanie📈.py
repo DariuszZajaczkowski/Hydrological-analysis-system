@@ -94,7 +94,7 @@ with col2:
     #Obliczanie średnich histroycznych zmiennych parametrów:
     avg_features = filtered_data.groupby(['month'])[["monthly_precip_sum", "snowfall_days", "max_precip", "water_flow"]].mean().reset_index()
 
-# Generowanie danych wejściowych na 2024 i 2025
+# Generowanie danych wejściowych na 2023 rok
     future_years = [2023]
     future_data = []
     for year in future_years:
@@ -129,7 +129,7 @@ with col2:
     for source, group in combined.groupby("source"):
         ax.plot(group["time"], group["water_level"], label=source if source == "Prognoza" else "-", marker='o' if source == "Zarejestrowane" else None)
 
-    ax.set_title("Zarejestrowane i prognozowane stany wód do 2025 roku", fontsize=14)
+    ax.set_title("Zarejestrowane i prognozowane stany wód do 2023 roku", fontsize=14)
     ax.set_xlabel("Rok", fontsize=12)
     ax.set_ylabel("Stan wód (cm)", fontsize=12)
     ax.legend()
