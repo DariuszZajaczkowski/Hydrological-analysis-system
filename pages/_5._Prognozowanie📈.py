@@ -48,7 +48,6 @@ model = xgb.XGBRegressor(objective="reg:squarederror", n_estimators=30,
                          learning_rate=0.9,
                          max_depth=2,
                          min_child_weight=1,
-                         subsample = 0.7,
                          tree_method='hist',
                          random_state=42)
 model.fit(X_train, y_train)
