@@ -74,7 +74,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_
 
 #Tworzenie i trenowanie modelu
 model = xgb.XGBRegressor(objective="reg:squarederror", n_estimators=50,
-                         learning_rate=0.1,
+                         learning_rate=0.4,
                          max_depth=4,
                          min_child_weight=1,
                          random_state=42)
